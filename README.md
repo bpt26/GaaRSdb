@@ -7,5 +7,8 @@ Currently, there are all orthologs of human synthetases and related genes found 
 Example starter query to examine the data after initializing database:
 ```
 use GaaRSdb ;
-SELECT * FROM genes JOIN species ON genes.species_id = species.species_id JOIN og_oids ON genes.og_id = og_oids.og_id ;
+SELECT * FROM genes 
+JOIN species ON genes.species_id = species.species_id 
+JOIN og_oids ON genes.og_id = og_oids.og_id 
+WHERE genes.gene_name = "Seryl-tRNA synthetase" ;
 ```
