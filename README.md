@@ -1,4 +1,4 @@
-### Genomic Aminoacyl tRNA Synthetase database
+## Genomic Aminoacyl tRNA Synthetase database
 
 This repository will eventually contain as much information as I can gather on aminoacyl tRNA synthetases, in the form of SQL queries. I am learning SQL by developing this database and am balancing several other projects, so progress may be slow. However, the end goal is to produce a fully functional database in which users can find sequences for aaRSs by tRNA isotype and species, as well as obtain orthologs of genes of interest for species where available.
 
